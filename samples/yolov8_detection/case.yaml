@@ -1,0 +1,17 @@
+case_id: yolov8_detection
+handler:
+  channels:
+    - rgb:main
+  frame_shape:
+    - 64
+    - 64
+  fps: 2.0
+  max_batches: 3
+predictors:
+  analytics:
+    class_names:
+      - person
+      - car
+      - bottle
+    score_threshold: 0.2
+    max_detections: 3

@@ -1,0 +1,12 @@
+case_id: threshold_alert
+handler:
+  channels:
+    - rgb:main
+  frame_shape:
+    - 32
+    - 32
+  fps: 2.0
+  max_batches: 5
+predictors:
+  analytics:
+    threshold: 180

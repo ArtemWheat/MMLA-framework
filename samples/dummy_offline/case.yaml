@@ -1,0 +1,17 @@
+case_id: dummy_offline
+handler:
+  channels:
+    - rgb:primary
+    - rgb:aux
+  frame_shape:
+    - 32
+    - 32
+  fps: 2.0
+  max_batches: 4
+predictors:
+  validation:
+    min_intensity: 0
+    max_intensity: 255
+  analytics:
+    emit_histogram: true
+    top_k: 3

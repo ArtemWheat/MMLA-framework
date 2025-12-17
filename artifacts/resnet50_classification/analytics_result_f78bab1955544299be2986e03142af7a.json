@@ -1,0 +1,1 @@
+{"predictions": {"rgb:primary": [{"label": "cat", "score": 0.007}, {"label": "dog", "score": 0.005}, {"label": "car", "score": 0.003}], "rgb:aux": [{"label": "cat", "score": 0.008}, {"label": "dog", "score": 0.006}, {"label": "car", "score": 0.004}]}, "stage_duration_ms": 1.7461776733398438}

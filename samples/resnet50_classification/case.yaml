@@ -1,0 +1,17 @@
+case_id: resnet50_classification
+handler:
+  channels:
+    - rgb:main
+  frame_shape:
+    - 64
+    - 64
+  fps: 2.0
+  max_batches: 3
+predictors:
+  analytics:
+    class_names:
+      - cat
+      - dog
+      - car
+      - plane
+    top_k: 3
